@@ -7,5 +7,13 @@
   "page.initial": "Main",
   "password": "Password",
   "signIn": "Sign in",
-  "signUp": "Sign up"
+  "signUp": "Sign up",
+  "bookList": "List of books",
+  "createBook": "Create book",
+  "bookName": "Name of book",
+  "author": "Author",
+  "genre": "Genre",
+  "create": "Create",
+  "update": "Update",
+  "loading" : "Loading..."
 }

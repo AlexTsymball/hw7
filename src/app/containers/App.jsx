@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useDispatch } from 'react-redux';
+import {useDispatch} from 'react-redux';
 import {
   BrowserRouter,
   Switch,
@@ -10,6 +10,8 @@ import IntlProvider from 'components/IntlProvider';
 import Header from 'components/Header';
 import PageInitial from 'pageProviders/Initial';
 import PageLogin from 'pageProviders/Login';
+import PageBooks from 'pageProviders/Books';
+import PageCreateEditBook from 'pageProviders/CreateEditBook';
 import * as PAGES from 'constants/pages';
 import {
   fetchUser,
@@ -41,6 +43,16 @@ const App = () => {
               <Route path={`/${PAGES.INITIAL}`}>
                 <PageInitial />
               </Route>
+              <Route path={`/${PAGES.EDIT_BOOK}`}>
+                <PageCreateEditBook />
+              </Route>
+              <Route path={`/${PAGES.CREATE_BOOK}`}>
+                <PageCreateEditBook />
+              </Route>
+              <Route path={`/${PAGES.BOOKS}`}>
+                <PageBooks />
+              </Route>
+
               <Redirect from="*" to={`/${PAGES.INITIAL}`} />
             </Switch>
         )}

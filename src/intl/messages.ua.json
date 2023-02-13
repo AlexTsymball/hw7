@@ -7,5 +7,13 @@
   "page.initial": "Main",
   "password": "Пароль",
   "signIn": "Вхiд",
-  "signUp": "Вихiд"
+  "signUp": "Вихiд",
+  "bookList": "Список книг",
+  "createBook": "Створити книгу",
+  "bookName": "Назва книги",
+  "author": "Автор",
+  "genre": "Жанр",
+  "create": "Створити",
+  "update": "Оновити",
+  "loading" : "Завантаження..."
 }
